@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dream2Music", "Assembly-CSharp.csproj", "{8BD29327-A782-80D3-077A-D246D1C386BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dream2Music", "Assembly-CSharp-Editor.csproj", "{14864793-333F-7882-BA58-286480B343EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD29327-A782-80D3-077A-D246D1C386BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD29327-A782-80D3-077A-D246D1C386BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD29327-A782-80D3-077A-D246D1C386BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD29327-A782-80D3-077A-D246D1C386BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14864793-333F-7882-BA58-286480B343EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14864793-333F-7882-BA58-286480B343EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14864793-333F-7882-BA58-286480B343EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14864793-333F-7882-BA58-286480B343EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Dream2Music/scenes/game.unity
+  isLoaded: 1
+  isActive: 1

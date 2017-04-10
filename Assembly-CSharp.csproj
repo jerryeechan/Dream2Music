@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{8BD29327-A782-80D3-077A-D246D1C386BD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_PHYSICS_EDGE_RADIUS;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+	<LangVersion>default</LangVersion>
+</PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Data\DataManager.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Data\SongData.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Data\TrackData.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Game\BeatNoteGenerator.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Game\GameManager.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Game\GameUI\BeatNoteRenderer.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Game\GameUI\Metronome.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Game\HoneyCombConstant.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Looper\AudioLooper.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\Looper\MIDIPlayer.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\MIDI\AudioChannel.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\MIDI\AudioSourceManager.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\MIDI\AudioTrack.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\MIDI\NoteEvent.cs" />
+     <Compile Include="Assets\Dream2Music\scripts\UI\UIManager.cs" />
+     <Compile Include="Assets\MidiJack\Midi.cs" />
+     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
+     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
+     <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
+     <Compile Include="Assets\MyStandardPackage\AnimatableCanvas.cs" />
+     <Compile Include="Assets\MyStandardPackage\AnimatableCanvasController.cs" />
+     <Compile Include="Assets\MyStandardPackage\AutoSaveOnRun.cs" />
+     <Compile Include="Assets\MyStandardPackage\CameraBound.cs" />
+     <Compile Include="Assets\MyStandardPackage\DonDestroyOnLoadObject.cs" />
+     <Compile Include="Assets\MyStandardPackage\Extensions.cs" />
+     <Compile Include="Assets\MyStandardPackage\IDisplayable.cs" />
+     <Compile Include="Assets\MyStandardPackage\KVPList.cs" />
+     <Compile Include="Assets\MyStandardPackage\PlayePrefX.cs" />
+     <Compile Include="Assets\MyStandardPackage\PoolManager\JPoolManager.cs" />
+     <Compile Include="Assets\MyStandardPackage\PoolManager\JPoolObject.cs" />
+     <Compile Include="Assets\MyStandardPackage\PoolManager\JPrefabPool.cs" />
+     <Compile Include="Assets\MyStandardPackage\PropertyStringfy\StringfyProperty.cs" />
+     <Compile Include="Assets\MyStandardPackage\SceneAwakeManager.cs" />
+     <Compile Include="Assets\MyStandardPackage\Singleton.cs" />
+     <Compile Include="Assets\MyStandardPackage\SingletonCanvas.cs" />
+     <Compile Include="Assets\MyStandardPackage\TouchHandler\TouchHandler.cs" />
+     <Compile Include="Assets\MyStandardPackage\TouchHandler\TouchInfo.cs" />
+     <Compile Include="Assets\MyStandardPackage\import\PixelAssetImporter.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\GarbageCollector.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\GridButton.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\KeyProperty.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\Keyboard.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\MMLPlayer.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\PresetButton.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\SampleTools.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\ToneEditor.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\ToneEditorCT8.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\Transition.cs" />
+     <Compile Include="Assets\MySynthesizer\samples\scripts\WaveTable.cs" />
+     <Compile Include="Assets\MySynthesizer\scripts\MyFakeTask.cs" />
+     <Compile Include="Assets\MySynthesizer\scripts\MyMMLBox.cs" />
+     <Compile Include="Assets\MySynthesizer\scripts\MyMMLClip.cs" />
+     <Compile Include="Assets\MySynthesizer\scripts\MyMMLPlayer.cs" />
+     <Compile Include="Assets\MySynthesizer\scripts\MySyntheStation.cs" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\MySynthesizer\tools\SMF2MyMML.txt" />
+     <None Include="Assets\MySynthesizer\tools\MyMMLChecker.txt" />
+     <None Include="Assets\MySynthesizer\samples\mml\Flohwalzer.mml.txt" />
+     <None Include="Assets\MySynthesizer\documents\Reference.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\MySynthesizer\tools\ct8tone.mml.txt" />
+     <None Include="Assets\MySynthesizer\samples\mml\Hanazakari.mml.txt" />
+     <None Include="Assets\MySynthesizer\tools\ct8drum.mml.txt" />
+     <None Include="Assets\MySynthesizer\documents\MyMMLManual.txt" />
+     <None Include="Assets\MySynthesizer\documents\ReadMe.txt" />
+     <None Include="Assets\MySynthesizer\samples\mml\Sakura.mml.txt" />
+     <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\MySynthesizer\documents\Overview.txt" />
+     <None Include="Assets\MySynthesizer\samples\mml\test01.mml.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>/Users/jerry/Dream2Music/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>/Users/jerry/Dream2Music/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>/Users/jerry/Dream2Music/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>/Users/jerry/Dream2Music/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="MySynthesizer">
+ <HintPath>/Users/jerry/Dream2Music/Assets/MySynthesizer/plugins/MySynthesizer.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
